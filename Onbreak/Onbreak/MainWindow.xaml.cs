@@ -24,5 +24,10 @@ namespace Onbreak
         {
             InitializeComponent();
         }
+
+        private void BtnSalir_Click(object sender, RoutedEventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
 }
