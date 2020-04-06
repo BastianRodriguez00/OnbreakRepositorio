@@ -29,7 +29,7 @@
         <Button x:Name="btnModificar" Content="Modificar" HorizontalAlignment="Left" Margin="235,359,0,0" VerticalAlignment="Top" Width="75"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="386,359,0,0" VerticalAlignment="Top" Width="75"/>
         <Button x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="386,359,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="btnSalir" Content="Salir" HorizontalAlignment="Left" Margin="663,359,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnSalir" Content="Salir" HorizontalAlignment="Left" Margin="685,359,0,0" VerticalAlignment="Top" Width="75" Click="BtnSalir_Click"/>
 
     </Grid>
 </Window>
