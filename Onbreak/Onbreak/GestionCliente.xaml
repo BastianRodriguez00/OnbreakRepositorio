@@ -15,20 +15,21 @@
         <Label Content="Teléfono" HorizontalAlignment="Left" Margin="27,218,0,0" VerticalAlignment="Top"/>
         <Label Content="Actividad empresa" HorizontalAlignment="Left" Margin="27,271,0,0" VerticalAlignment="Top"/>
         <Label Content="Tipo empresa" HorizontalAlignment="Left" Margin="27,302,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="168,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="168,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="168,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="168,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="168,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="168,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <ComboBox HorizontalAlignment="Left" Margin="168,275,0,0" VerticalAlignment="Top" Width="120"/>
-        <ComboBox HorizontalAlignment="Left" Margin="168,306,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Buscar" HorizontalAlignment="Left" Margin="308,45,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Limpiar" HorizontalAlignment="Left" Margin="27,359,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="155,359,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="235,359,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="txtRut" HorizontalAlignment="Left" Height="23" Margin="168,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="168,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" Margin="168,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtRazonSocial" HorizontalAlignment="Left" Height="23" Margin="168,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtDireccion" HorizontalAlignment="Left" Height="23" Margin="168,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtTelefono" HorizontalAlignment="Left" Height="23" Margin="168,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cboActividadEmpresa" HorizontalAlignment="Left" Margin="168,275,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cboTipoEmpresa" HorizontalAlignment="Left" Margin="168,306,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnBuscar" Content="Buscar" HorizontalAlignment="Left" Margin="308,45,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnLimpiar" Content="Limpiar" HorizontalAlignment="Left" Margin="27,359,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="155,359,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnModificar" Content="Modificar" HorizontalAlignment="Left" Margin="235,359,0,0" VerticalAlignment="Top" Width="75"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="386,359,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="386,359,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="386,359,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnSalir" Content="Salir" HorizontalAlignment="Left" Margin="663,359,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>
