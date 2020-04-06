@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Onbreak
+namespace GestionClientes
 {
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml
@@ -27,13 +27,7 @@ namespace Onbreak
 
         private void BtnSalir_Click(object sender, RoutedEventArgs e)
         {
-            Environment.Exit(0);
-        }
-
-        private void BtnGestion_Click_1(object sender, RoutedEventArgs e)
-        {
-            GestionCliente gestion = new GestionCliente();
-            gestion.Show();
+            
         }
     }
 }

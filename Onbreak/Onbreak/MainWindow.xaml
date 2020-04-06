@@ -5,15 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Onbreak"
         mc:Ignorable="d"
-        Title="ONBREAK - MENÚ" Height="450" Width="800">
+        Title="ONBREAK - MENÚ" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         <Button Content="Button" HorizontalAlignment="Left" Margin="47,52,0,0" VerticalAlignment="Top" Width="104" Height="104"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="47,52,0,0" VerticalAlignment="Top" Width="149" Height="149"/>
-        <Button x:Name="btnListadoClientes" Content="" HorizontalAlignment="Left" Margin="230,52,0,0" VerticalAlignment="Top" Width="149" Height="149"/>
-        <Button x:Name="btnGestion" Content="" HorizontalAlignment="Left" Margin="47,52,0,0" VerticalAlignment="Top" Width="149" Height="149"/>
-        <Button x:Name="btnGestionContratos" Content="" HorizontalAlignment="Left" Margin="420,52,0,0" VerticalAlignment="Top" Width="149" Height="149"/>
-        <Button x:Name="btnListado" Content="" HorizontalAlignment="Left" Margin="615,52,0,0" VerticalAlignment="Top" Width="149" Height="149"/>
-        <Button x:Name="btnSalir" Content="" HorizontalAlignment="Left" Margin="615,225,0,0" VerticalAlignment="Top" Width="149" Height="149" Click="BtnSalir_Click"/>
+        <Button x:Name="btnListadoClientes" Content="Listado Clientes" HorizontalAlignment="Left" Margin="225,52,0,0" VerticalAlignment="Top" Width="149" Height="149"/>
+        <Button x:Name="btnGestion" Content="Gestion Clientes" HorizontalAlignment="Left" Margin="35,52,0,0" VerticalAlignment="Top" Width="149" Height="149" Click="BtnGestion_Click_1"/>
+        <Button x:Name="btnGestionContratos" Content="Gestion Contratos" HorizontalAlignment="Left" Margin="420,52,0,0" VerticalAlignment="Top" Width="149" Height="149"/>
+        <Button x:Name="btnListado" Content="Listado Contratos" HorizontalAlignment="Left" Margin="615,52,0,0" VerticalAlignment="Top" Width="149" Height="149"/>
+        <Button x:Name="btnSalir" Content="Salir" HorizontalAlignment="Left" Margin="615,225,0,0" VerticalAlignment="Top" Width="149" Height="149" Click="BtnSalir_Click"/>
 
     </Grid>
 </Window>

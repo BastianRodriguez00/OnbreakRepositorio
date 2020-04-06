@@ -10,30 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Onbreak
 {
     /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
+    /// Lógica de interacción para GestionCliente.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class GestionCliente : Window
     {
-        public MainWindow()
+        public GestionCliente()
         {
             InitializeComponent();
-        }
-
-        private void BtnSalir_Click(object sender, RoutedEventArgs e)
-        {
-            Environment.Exit(0);
-        }
-
-        private void BtnGestion_Click_1(object sender, RoutedEventArgs e)
-        {
-            GestionCliente gestion = new GestionCliente();
-            gestion.Show();
         }
     }
 }
