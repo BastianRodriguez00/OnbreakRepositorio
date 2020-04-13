@@ -55,7 +55,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="GestionContratosEventos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="GestionCliente.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListadoClientes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListadoContratos.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -68,8 +80,17 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="GestionContratosEventos.xaml.cs">
+      <DependentUpon>GestionContratosEventos.xaml</DependentUpon>
+    </Compile>
     <Compile Include="GestionCliente.xaml.cs">
       <DependentUpon>GestionCliente.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoClientes.xaml.cs">
+      <DependentUpon>ListadoClientes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoContratos.xaml.cs">
+      <DependentUpon>ListadoContratos.xaml</DependentUpon>
     </Compile>
     <Compile Include="Mainwindow.xaml.cs">
       <DependentUpon>Mainwindow.xaml</DependentUpon>
